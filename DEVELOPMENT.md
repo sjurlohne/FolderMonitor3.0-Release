@@ -145,34 +145,6 @@ The app includes comprehensive functionality testing:
 - **Real-time Updates** - Live statistics and activity tracking
 - **Status Indicators** - Clear visual feedback for monitoring state
 
-## 🔐 Code Signing and Distribution
-
-### Certificates Required
-
-- **Developer ID Application** - For signing the app bundle
-- **Developer ID Installer** - For signing the installer package
-
-### Signing Process
-
-1. **Code Sign App:**
-   ```bash
-   codesign --force --deep --sign "Developer ID Application: ENVO IT AS (FXW6QXBFW5)" --options runtime --timestamp "Folder Monitor 3.0.app"
-   ```
-
-2. **Create Installer Package:**
-   ```bash
-   pkgbuild --root temp_pkg_root --identifier "com.envoit.foldermonitor3" --version "3.0.0" --install-location "/" "temp_component.pkg"
-   productbuild --package "temp_component.pkg" --sign "Developer ID Installer: ENVO IT AS (FXW6QXBFW5)" "Folder Monitor 3.0.pkg"
-   ```
-
-### Notarization
-
-The app is notarized using SD Notary 2 for professional distribution:
-
-1. **Submit for notarization** - Upload package to Apple
-2. **Wait for approval** - Apple scans and approves the package
-3. **Staple notarization** - Attach notarization ticket to package
-
 ## 🧪 Testing and Quality Assurance
 
 ### Testing Checklist
@@ -270,13 +242,6 @@ The app is notarized using SD Notary 2 for professional distribution:
 - [macOS Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/macos)
 - [Swift Package Manager](https://swift.org/package-manager/)
 - [Code Signing Guide](https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution)
-
-### Tools
-
-- **Xcode** - Primary development environment
-- **SD Notary 2** - Code signing and notarization
-- **Git** - Version control
-- **Swift Package Manager** - Dependency management
 
 ---
 
