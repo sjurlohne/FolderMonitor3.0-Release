@@ -2,7 +2,7 @@
 
 **Automatically move files from one folder to another as soon as they appear**
 
-Folder Monitor 3.0 is a native macOS application built with SwiftUI that watches a folder and automatically moves files to a destination folder when they appear. Perfect for organizing downloads, processing files, or automating file workflows.
+Folder Monitor 3.0 is a native macOS application that watches a folder and automatically moves files to a destination folder when they appear. Perfect for organizing downloads, processing files, or automating file workflows.
 
 ## 🚀 Quick Start
 
@@ -44,38 +44,8 @@ Folder Monitor 3.0 is a native macOS application built with SwiftUI that watches
 
 ## 📖 Documentation
 
-- **[User Guide](README_APP.md)** - Complete user documentation
-- **[Developer Guide](DEVELOPMENT.md)** - Build and development instructions
-
-## 🔧 Development
-
-This is a SwiftUI application built with Swift Package Manager.
-
-### Building from Source
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/FolderMonitor3.0.git
-cd FolderMonitor3.0
-
-# Build the project
-swift build
-
-# Create app bundle
-./create_app_bundle.sh
-```
-
-### Project Structure
-
-```
-FolderMonitor3.0/
-├── Models/              # Data models and structures
-├── Services/            # Business logic and file monitoring
-├── Views/               # SwiftUI user interface
-├── FolderMonitor3App.swift  # Main app entry point
-├── Package.swift        # Swift Package Manager configuration
-└── README_APP.md        # User documentation
-```
+- **[User Guide](README_APP.md)** - Complete user documentation and instructions
+- **[Development Guide](DEVELOPMENT.md)** - For developers and contributors
 
 ## 🔒 Privacy & Security
 
@@ -91,7 +61,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please see our [Development Guide](DEVELOPMENT.md) for setup instructions and contribution guidelines.
 
 ## 📞 Support
 
