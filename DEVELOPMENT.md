@@ -283,3 +283,5 @@ The app is notarized using SD Notary 2 for professional distribution:
 **Happy Coding!** 🚀
 
 For questions or support, please open an issue on GitHub or contact the development team.
+
+
